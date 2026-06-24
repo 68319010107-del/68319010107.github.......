@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>องค์ประกอบของคอมพิวเตอร์</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    display:flex;
+    background:#f1f5f9;
+}
+
+/* Sidebar */
+.sidebar{
+    width:250px;
+    height:100vh;
+    background:#1E293B;
+    color:white;
+    position:fixed;
+    left:0;
+    top:0;
+}
+
+.sidebar h2{
+    text-align:center;
+    padding:25px 10px;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+/* Menu */
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li a{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    color:white;
+    text-decoration:none;
+    padding:15px 20px;
+    transition:0.3s;
+}
+
+/* Hover Effect */
+.sidebar ul li a:hover{
+    background:#334155;
+    padding-left:28px;
+}
+
+/* Content */
+.content{
+    margin-left:250px;
+    padding:40px;
+}
+
+.content h1{
+    color:#1E293B;
+    margin-bottom:15px;
+}
+
+.content p{
+    font-size:18px;
+    color:#475569;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar">
+
+    <h2>องค์ประกอบ<br>คอมพิวเตอร์</h2>
+
+    <ul>
+        <li><a href="#"><i class="fas fa-house"></i>หน้าแรก</a></li>
+        <li><a href="#"><i class="fas fa-microchip"></i>CPU</a></li>
+        <li><a href="#"><i class="fas fa-memory"></i>RAM</a></li>
+        <li><a href="#"><i class="fas fa-hard-drive"></i>Storage</a></li>
+        <li><a href="#"><i class="fas fa-desktop"></i>อุปกรณ์แสดงผล</a></li>
+        <li><a href="#"><i class="fas fa-keyboard"></i>อุปกรณ์รับข้อมูล</a></li>
+        <li><a href="#"><i class="fas fa-network-wired"></i>ระบบเครือข่าย</a></li>
+        <li><a href="#"><i class="fas fa-book"></i>แบบทดสอบ</a></li>
+        <li><a href="#"><i class="fas fa-address-card"></i>ผู้จัดทำ</a></li>
+    </ul>
+
+</div>
+
+<!-- Content -->
+<div class="content">
+
+    <h1>วิชาองค์ประกอบของคอมพิวเตอร์</h1>
+
+    <p>
+        ยินดีต้อนรับเข้าสู่เว็บไซต์การเรียนรู้เกี่ยวกับองค์ประกอบของคอมพิวเตอร์
+        ซึ่งประกอบด้วยเนื้อหาเกี่ยวกับ CPU, RAM, Storage,
+        อุปกรณ์รับข้อมูล อุปกรณ์แสดงผล และระบบเครือข่าย
+    </p>
+
+</div>
+
+</body>
+</html>
